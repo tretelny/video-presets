@@ -1,0 +1,28 @@
+{
+  "providers": ["encodingcom"],
+  "preset": {
+    "name": "reencode_360p_hls",
+    "description": "Reencode 360p hls",
+    "container": "m3u8",
+    "profile": "Main",
+    "profileLevel": "3.1",
+    "rateControl": "VBR",
+    "video": {
+        "height": "360",
+        "width": "",
+        "codec": "h264",
+        "bitrate": "900000",
+        "gopSize": "90",
+        "gopMode": "fixed",
+        "interlaceMode": "progressive"
+    },
+    "audio": {
+        "codec": "aac",
+        "bitrate": "128000"
+    }
+  },
+  "outputOptions": {
+    "extension": "m3u8",
+    "label": "360p"
+  }
+}

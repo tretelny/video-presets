@@ -1,0 +1,28 @@
+{
+  "providers": ["encodingcom"],
+  "preset": {
+    "name": "reencode_240p_hls",
+    "description": "Reencode 240p hls",
+    "container": "m3u8",
+    "profile": "Main",
+    "profileLevel": "3.1",
+    "rateControl": "VBR",
+    "video": {
+        "height": "240",
+        "width": "",
+        "codec": "h264",
+        "bitrate": "300000",
+        "gopSize": "90",
+        "gopMode": "fixed",
+        "interlaceMode": "progressive"
+    },
+    "audio": {
+        "codec": "aac",
+        "bitrate": "128000"
+    }
+  },
+  "outputOptions": {
+    "extension": "m3u8",
+    "label": "240p"
+  }
+}
