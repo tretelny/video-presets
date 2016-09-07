@@ -1,0 +1,28 @@
+{
+  "providers": ["encodingcom"],
+  "preset": {
+    "name": "reencode_480p_webm",
+    "description": "Reencode 480p webm",
+    "container": "webm",
+    "profile": "Main",
+    "profileLevel": "3.1",
+    "rateControl": "VBR",
+    "video": {
+        "height": "480",
+        "width": "",
+        "codec": "libvpx",
+        "bitrate": "1500000",
+        "gopSize": "90",
+        "gopMode": "fixed",
+        "interlaceMode": "progressive"
+    },
+    "audio": {
+        "codec": "libvorbis",
+        "bitrate": "64000"
+    }
+  },
+  "outputOptions": {
+    "extension": "webm",
+    "label": "480p"
+  }
+}
