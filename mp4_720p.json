@@ -1,8 +1,8 @@
 {
   "providers": ["encodingcom"],
   "preset": {
-    "name": "reencode_720p_mp4",
-    "description": "Reencode 720p mp4",
+    "name": "720p_mp4",
+    "description": "720p mp4",
     "container": "mp4",
     "profile": "Main",
     "profileLevel": "3.1",

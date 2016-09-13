@@ -1,8 +1,8 @@
 {
   "providers": ["encodingcom"],
   "preset": {
-    "name": "reencode_240p_hls",
-    "description": "Reencode 240p hls",
+    "name": "240p_hls",
+    "description": "240p hls",
     "container": "m3u8",
     "profile": "Main",
     "profileLevel": "3.1",

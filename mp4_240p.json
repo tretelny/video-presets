@@ -1,8 +1,8 @@
 {
   "providers": ["encodingcom"],
   "preset": {
-    "name": "reencode_240p_mp4",
-    "description": "Reencode 240p mp4",
+    "name": "240p_mp4",
+    "description": "240p mp4",
     "container": "mp4",
     "profile": "Main",
     "profileLevel": "3.1",

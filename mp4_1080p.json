@@ -1,8 +1,8 @@
 {
   "providers": ["encodingcom"],
   "preset": {
-    "name": "reencode_1080p_mp4",
-    "description": "Reencode 1080p mp4",
+    "name": "1080p_mp4",
+    "description": "1080p mp4",
     "container": "mp4",
     "profile": "Main",
     "profileLevel": "3.1",

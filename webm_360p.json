@@ -1,8 +1,8 @@
 {
   "providers": ["encodingcom"],
   "preset": {
-    "name": "reencode_360p_webm",
-    "description": "Reencode 360p webm",
+    "name": "360p_webm",
+    "description": "360p webm",
     "container": "webm",
     "profile": "Main",
     "profileLevel": "3.1",
