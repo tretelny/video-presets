@@ -18,7 +18,7 @@
     },
     "audio": {
         "codec": "libvorbis",
-        "bitrate": "128000"
+        "bitrate": "64000"
     }
   },
   "outputOptions": {
