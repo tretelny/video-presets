@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom"],
+  "providers": ["encodingcom","elastictranscoder"],
   "preset": {
     "name": "480p_webm",
     "description": "480p webm",
@@ -10,14 +10,14 @@
     "video": {
         "height": "480",
         "width": "",
-        "codec": "libvpx",
+        "codec": "vp8",
         "bitrate": "1500000",
         "gopSize": "90",
         "gopMode": "fixed",
         "interlaceMode": "progressive"
     },
     "audio": {
-        "codec": "libvorbis",
+        "codec": "vorbis",
         "bitrate": "64000"
     }
   },
