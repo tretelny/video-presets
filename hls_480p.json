@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom"],
+  "providers": ["encodingcom","elementalconductor","elastictranscoder"],
   "preset": {
     "name": "480p_hls",
     "description": "480p hls",

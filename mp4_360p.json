@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom"],
+  "providers": ["encodingcom","elementalconductor","elastictranscoder"],
   "preset": {
     "name": "360p_mp4",
     "description": "360p mp4",

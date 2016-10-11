@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom"],
+  "providers": ["encodingcom","elementalconductor","elastictranscoder"],
   "preset": {
     "name": "240p_hls",
     "description": "240p hls",
